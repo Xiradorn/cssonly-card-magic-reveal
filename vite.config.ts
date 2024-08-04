@@ -7,5 +7,7 @@ export default defineConfig(({ command, mode }) => {
 		server: {
 			port: env.VITE_SERVER_PORT,
 		},
+
+		base: ''
 	};
 });
